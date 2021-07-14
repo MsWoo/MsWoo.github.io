@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 숫자야구 ver 0.2 in Python
-date: 2021-07-14 22:43 +0800
+date: 2021-07-14 22:43 +0900
 tags: [python, tkinter, 숫자야구, GUI, etc]
 ---
 
