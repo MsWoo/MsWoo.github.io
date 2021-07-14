@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 숫자야구 in Python
-date: 2021-07-14 22:39 +0800
+title: 숫자야구 ver 0.2 in Python
+date: 2021-07-14 22:43 +0800
 tags: [python, tkinter, 숫자야구, GUI, etc]
 ---
 
@@ -15,6 +15,7 @@ tags: [python, tkinter, 숫자야구, GUI, etc]
 1.우선 tkinter 모듈을 import합니다.  
 `from tkinter import *`
 
+
 2.root라는 이름으로 `Tk()`와 `mainloop()`만 선언해주면 윈도우 창이 생성됩니다.  
 ```{.python}
 root = Tk()
@@ -25,7 +26,8 @@ root.mainloop()
 `title()` 제목 설정  
 `geometry()` 윈도우 창의 크기와 시작위치를 설정  
 `resizable(False, False)` 윈도우 창의 크기를 늘리거나 줄이지 못함.
-  
+
+
 4.필요한 label, entry, button 등을 추가해주겠습니다.  
 Button의 command에 함수명을 입력하면 버튼 클릭 시 해당 함수를 실행합니다.  
 Text에 y축 scrollbar를 추가하였습니다.  
