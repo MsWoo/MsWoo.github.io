@@ -11,8 +11,10 @@ tags: [안드로이드, android, 에러, error]
 
 ***
 # 해결 방법  
-AVD에 대한 설정 저장경로를 따로 설정하지 않았다면, C드라이브 / User / User 폴더 / .android / avd / 현재 사용중인 AVD 폴더 / 'userdata-qemu.img' 파일을 삭제합니다.  
-이후 AVD를 재실행 시켜주면 System UI isn't responding 오류가 해결됩니다. 데이터가 계속 쌓이기 때문에 꼭 오류가 나지 않아도 정기적으로 해주는 것도 좋다고 합니다.  
+AVD에 대한 설정 저장경로를 따로 설정하지 않았다면,  
+C드라이브 / User / User 폴더 / .android / avd / 현재 사용중인 AVD 폴더에 있는  
+'userdata-qemu.img' 파일을 삭제합니다. 이후 AVD를 재실행.  
+System UI isn't responding 오류가 해결됩니다. 데이터가 계속 쌓이기 때문에 꼭 오류가 나지 않아도 정기적으로 해주는 것도 좋다고 합니다.  
 
 # 주의사항!  
 AVD에 저장한 설정값, 데이터들이 전부 사라지니까 주의하시길 바랍니다.
